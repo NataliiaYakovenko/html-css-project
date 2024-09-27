@@ -6,7 +6,7 @@
     <title>Learn HTML & CSS</title>
 
     <Style>
-        p {
+        p { /*Cелектор за типом тега*/
           /* color: pink; -- використовується словом*/
           /* color: #458025;  -- використовується шістнатцяткий формат*/
           /* color: rgba(119, 102, 85, 0.948); -- використовується rgba з альфа канал*/
@@ -15,10 +15,26 @@
           /* font-size: 10pt; --розмір шрифту в пунктах*/
           /* font-size: 10px; --розмір шрифту в пікселях*/
         }
+    
+        #heading { /*Селектор за id*/
+            color: blueviolet;
+            font-size: 50px;
+        }
+        .green-text { /*Класовий селектор*/
+            color: rgb(128, 23, 0);
+        }
+        .font-size-large {
+            font-size: 90px;
+        }
+      
     </Style>
 </head>
 <body>
     <!-- ctrl + .біля правого shift......створює коментарі -->
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, omnis.</p>
+    <p>Lorem ipsum dolor sit <span class="green-text">amet consectetur adipisicing </span>elit. Et, omnis.</p>
+    <article>
+        <h2 id="heading">Супер <span class="green-text font-size-large">мега </span>якийсь заголовок!</h2>
+    </article>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
 </body>
 </html>

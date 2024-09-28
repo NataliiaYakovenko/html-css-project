@@ -8,6 +8,7 @@
     <Style>
         h1.h2.h3 {/*селектор за типом, специфічність 001*/
             font-size: 100px;
+            background-color: rgb(255, 127, 144);
         }
         p { /*Cелектор за типом тега,-  специфічність 001*/
           /* color: pink; -- використовується словом*/
@@ -29,11 +30,14 @@
         .font-size-large {
             font-size: 90px;
         }
+        .pink-text {
+            color:pink
+        }
       
     </Style>
 </head>
 <body>
-    <h1>Heading</h1>
+    <h1 class="green text pink-text">Heading</h1>
     <!-- ctrl + .біля правого shift......створює коментарі -->
     <p>Lorem ipsum dolor sit <span class="green-text">amet consectetur adipisicing </span>elit. Et, omnis.</p>
     <article>

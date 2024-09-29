@@ -1,6 +1,9 @@
 h1.h2.h3 {/*селектор за типом, специфічність 001*/
     font-size: 100px;
-    background-color: rgb(255, 127, 144);
+    background-color: rgb(2, 127, 144);
+}
+body {
+    font-size: 20px;
 }
 p { /*Cелектор за типом тега,-  специфічність 001*/
   /* color: pink; -- використовується словом*/
@@ -10,18 +13,38 @@ p { /*Cелектор за типом тега,-  специфічність 001
   color: #458025;
   /* font-size: 10pt; --розмір шрифту в пунктах*/
   /* font-size: 10px; --розмір шрифту в пікселях*/
+  font-size: 30px;
+  line-height: 2em;
+  text-align: justify;
 }
 
 #heading { /*Селектор за id*/
-    color: blueviolet;
+    color: blanchedalmond;
     font-size: 50px;
+    background-color: rgb(2, 127, 144);
 }
 .green-text { /*Класовий селектор*/
     color: rgb(128, 23, 0);
+    background-color: rgb(89, 120, 14);
+    font-size: 100px;
 }
 .font-size-large {
     font-size: 90px;
 }
 .pink-text {
     color:pink
+}
+h1 {
+    text-align:center ;
+}
+#btn-1 {
+    text-transform: uppercase;
+}
+#btn-2 {
+    text-transform: lowercase;
+}
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
 }

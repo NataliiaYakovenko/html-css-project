@@ -1,70 +1,18 @@
-
-@font-face {
-    font-family: 'Milonga';
-    src: url('./fonts/Milonga-Regular.ttf');
+.main-article {
+    font-size: 60px;
+    color: green;
+    border: 3px, solid, red;
+    
 }
-h1.h2.h3 {/*селектор за типом, специфічність 001*/
-    font-size: 100px;
-    background-color: rgb(2, 127, 144);
+.article-content {
+    color: inherit;
+    border: inherit;
 }
-body {
-    font-size: 20px;
+.article-link {
+    text-decoration: none;
+    color: inherit;
 }
-p { /*Cелектор за типом тега,-  специфічність 001*/
-  /* color: pink; -- використовується словом*/
-  /* color: #458025;  -- використовується шістнатцяткий формат*/
-  /* color: rgba(119, 102, 85, 0.948); -- використовується rgba з альфа канал*/
-  /* color: rgb (100, 200, 150) -- використовується rgb*/
-  color: #458025;
-  /* font-size: 10pt; --розмір шрифту в пунктах*/
-  /* font-size: 10px; --розмір шрифту в пікселях*/
-  font-size: 30px;
-  line-height: 2em;
-  /*font-family: "Edu AU VIC WA NT Dots", cursive;*/
-  font-weight: bold;
-  color: black;
-  font-family: 'Milonga';
-  text-align: justify;
-}
-
-#heading { /*Селектор за id*/
-    color: blanchedalmond;
-    font-size: 50px;
-    background-color: rgb(2, 127, 144);
-}
-.green-text { /*Класовий селектор*/
-    color: rgb(128, 23, 0);
-    background-color: rgb(89, 120, 14);
-    font-size: 100px;
-    font-family: 'Milonga';
-}
-.font-size-large {
-    font-size: 90px;
-    font-family: 'Milonga';
-}
-.pink-text {
-    color:pink;
-    font-family: 'Milonga';
-}
-h1 {
-    text-align:center ;
-    font-family: 'Milonga';
-    text-transform: uppercase;
-    line-height: 3em;
-}
-h2 {
-    text-transform: uppercase;
-    line-height: 2em;
-}
-
-#btn-1 {
-    text-transform: uppercase;
-}
-#btn-2 {
-    text-transform: lowercase;
-}
-a {
-    color: pink;
-    font-weight: bold;
-    text-decoration: navajowhite;
+.article-header {
+    border: 3px, solid, red;
+    text-align: justify;
 }

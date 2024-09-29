@@ -1,3 +1,8 @@
+
+@font-face {
+    font-family: 'Milonga';
+    src: url('./fonts/Milonga-Regular.ttf');
+}
 h1.h2.h3 {/*селектор за типом, специфічність 001*/
     font-size: 100px;
     background-color: rgb(2, 127, 144);
@@ -16,6 +21,10 @@ p { /*Cелектор за типом тега,-  специфічність 001
   font-size: 30px;
   line-height: 2em;
   text-align: justify;
+  /*font-family: "Edu AU VIC WA NT Dots", cursive;*/
+  font-weight: bold;
+  color: black;
+  font-family: 'Milonga';
 }
 
 #heading { /*Селектор за id*/
@@ -27,15 +36,19 @@ p { /*Cелектор за типом тега,-  специфічність 001
     color: rgb(128, 23, 0);
     background-color: rgb(89, 120, 14);
     font-size: 100px;
+    font-family: 'Milonga';
 }
 .font-size-large {
     font-size: 90px;
+    font-family: 'Milonga';
 }
 .pink-text {
-    color:pink
+    color:pink;
+    font-family: 'Milonga';
 }
 h1 {
     text-align:center ;
+    font-family: 'Milonga';
 }
 #btn-1 {
     text-transform: uppercase;

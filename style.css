@@ -5,3 +5,9 @@
     padding: 10px 5px 10px 5px;
     margin-right: 60px;
 }
+div {
+    display: inline;
+}
+span {
+    display: block;
+}

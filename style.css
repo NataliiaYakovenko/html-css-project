@@ -1,18 +1,5 @@
-.main-article {
-    font-size: 60px;
-    color: green;
+.image {
+    width: 300px;
     border: 3px, solid, red;
-    
-}
-.article-content {
-    color: inherit;
-    border: inherit;
-}
-.article-link {
-    text-decoration: none;
-    color: inherit;
-}
-.article-header {
-    border: 3px, solid, red;
-    text-align: justify;
+    box-sizing: border-box;
 }

@@ -1,16 +1,17 @@
-.card-wrapper {
-    border: 1px solid black;
-    width: 500px;
-    height: 350px;
+table {
+    border: 2px solid black;
+    border-collapse: collapse;
 }
 
-
-img {
-    display: block;
-    margin: 0 auto;
-    border-radius: 50%;
-    width: 300px;
-    height: 300px;
-    object-fit: cover;
-    object-position: 1px 0px;
+th, td {
+    border: 1px solid black;
+    
+}
+caption {
+    color: darkmagenta;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.text-center {
+    text-align: center;
 }

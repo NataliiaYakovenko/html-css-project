@@ -20,3 +20,15 @@ margin-top: 20px;
     background-color: brown;
     color: white;
 }
+.page-link:focus{
+    border: 5px solid green;
+}
+
+.page-link:active {
+    background-color: plum;
+    color: red;
+}
+
+input:focus{
+background-color: chartreuse;
+}

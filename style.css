@@ -4,19 +4,16 @@
   margin: 0;
 }
 
-.block1 {
-  border: 2px solid red;
-  width: 100px;
-  height: 200px;
-  margin: 20px 0 10px 50px;
-}
+div{
+    width: 100px;
+    height: 100px;
+    background-color: bisque;
+    color: purple;
+    font-size: 40px;
+    text-align: center;
 
-.block2 {
-  border: 2px solid blue;
-  width: 200px;
-  height: 400px;
-  font-size: 18px;
-  margin: 10px 0 10px 50px;
-  padding: 10px;
-  text-align: justify;
+}
+div:hover {
+    background-color: blue;
+    color: chocolate;
 }

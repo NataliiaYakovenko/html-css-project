@@ -1,34 +1,42 @@
+
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
-
+body {
+  margin: 20px 5px 5px 40px;
+}
 
 .link-list li {
-display: inline-block;
-margin-top: 20px;
+  display: inline-block;
 }
 
 .page-link {
-    text-decoration: none;
-    background-color: darkcyan;
-    margin: 10px;
-    color:chartreuse;
+  text-decoration: none;
+  background-color: darkcyan;
+  color: chartreuse;
 }
 .page-link:hover {
-    background-color: brown;
-    color: white;
+  background-color: brown;
+  color: white;
 }
-.page-link:focus{
-    border: 5px solid green;
+.page-link:focus {
+  border: 5px solid green;
 }
 
 .page-link:active {
-    background-color: plum;
-    color: red;
+  background-color: plum;
+  color: red;
 }
 
-input:focus{
-background-color: chartreuse;
+input:focus {
+  background-color: chartreuse;
+}
+
+li:first-child{
+  color: blue;
+}
+li:last-child{
+  color: red;
 }
